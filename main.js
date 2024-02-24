@@ -10,7 +10,7 @@ window.addEventListener('resize', () => {
   }
 });
 
-$menuIcon.addEventListener('click', (event) => {
+$menuIcon.addEventListener('click', () => {
   anchorsWrapperEl.classList.toggle('display-flex');
 });
 
