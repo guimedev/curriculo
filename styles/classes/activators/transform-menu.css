@@ -1,0 +1,9 @@
+.bar1 {
+  transform: translateY(8rem) rotate(45deg);
+}
+.bar2 {
+  background-color: transparent;
+}
+.bar3 {
+  transform: translateY(-8rem) rotate(-45deg);
+}

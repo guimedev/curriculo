@@ -1,0 +1,29 @@
+.bar {
+  background-color: black;
+  height: 4rem;
+  width: 22rem;
+  border-radius: 50rem;
+  transition-duration: .4s;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  z-index: 1;
+  width: 36rem;
+  height: 36rem;
+  border-radius: 50rem;
+  border: none;
+
+  background-color: pink;
+}
+
+@media screen and (min-width: 575px) {
+  .menu-icon {
+    display: none;
+  }
+}

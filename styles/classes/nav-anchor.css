@@ -1,0 +1,25 @@
+.nav-anchor {
+  display: block;
+
+  padding: 8rem 16rem;
+  font-weight: 500;
+  color: var(--white);
+  transition-property: color, border-color;
+  transition-duration: 0.4s;
+}
+
+.nav-anchor:hover {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.nav-anchor:active {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+@media screen and (min-width: 575px) {
+  .nav-anchor {
+    border: 2rem solid var(--white);
+  }
+}
