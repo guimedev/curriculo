@@ -3,7 +3,9 @@
   height: 4rem;
   width: 22rem;
   border-radius: 50rem;
-  transition-duration: .4s;
+  transition-property: transform, opacity;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
 }
 
 .menu-icon {

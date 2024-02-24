@@ -2,7 +2,7 @@
   transform: translateY(8rem) rotate(45deg);
 }
 .bar2 {
-  background-color: transparent;
+  opacity: 0;
 }
 .bar3 {
   transform: translateY(-8rem) rotate(-45deg);
