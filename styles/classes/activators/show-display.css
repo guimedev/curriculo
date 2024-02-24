@@ -1,10 +1,10 @@
-.display-flex {
+.show-display {
   display: flex;
   opacity: 1;
 }
 
 @starting-style {
-  .display-flex {
+  .show-display {
     opacity: 0;
   }
 }

@@ -16,5 +16,6 @@
 @import './styles/classes/menu-icon.css';
 
 /* Activators */
-@import './styles/classes/activators/display-flex.css';
-@import './styles/classes/activators/transform-menu.css';
+@import './styles/classes/activators/show-display.css';
+@import './styles/classes/activators/animate-menu-bar.css';
+@import './styles/classes/activators/hidden-scrollbar.css';

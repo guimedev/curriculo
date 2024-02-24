@@ -6,12 +6,13 @@ const $menuIcon = MenuIcon();
 
 window.addEventListener('resize', () => {
   if (window.innerWidth > 574) {
-    anchorsWrapperEl.classList.remove('display-flex');
-  }
+    anchorsWrapperEl.classList.remove('show-display');
+  } 
 });
 
 $menuIcon.addEventListener('click', () => {
-  anchorsWrapperEl.classList.toggle('display-flex');
+  anchorsWrapperEl.classList.toggle('show-display');
+  document.body.classList.toggle('hidden-scrollbar')
 });
 
 globalNavEl.append($menuIcon)

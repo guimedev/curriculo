@@ -1,9 +1,10 @@
-.bar1 {
+.animate-menu-bar1 {
   transform: translateY(8rem) rotate(45deg);
 }
-.bar2 {
+.animate-menu-bar2 {
   opacity: 0;
 }
-.bar3 {
+.animate-menu-bar3 {
   transform: translateY(-8rem) rotate(-45deg);
 }
+
