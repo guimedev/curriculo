@@ -1,20 +1,20 @@
 /* Fonts */
-@import '/styles/fonts/fonts.css';
+@import './styles/fonts/fonts.css';
 
 /* Colors */
-@import '/styles/colors/colors.css';
+@import './styles/colors/colors.css';
 
 /* Base */
-@import '/styles/base/rem.css';
-@import '/styles/base/normalize.css';
+@import './styles/base/rem.css';
+@import './styles/base/normalize.css';
 
 /* Classes */
-@import '/styles/classes/global-nav.css';
-@import '/styles/classes/anchors-wrapper.css';
-@import '/styles/classes/slogan.css';
-@import '/styles/classes/nav-anchor.css';
-@import '/styles/classes/menu-icon.css';
+@import './styles/classes/global-nav.css';
+@import './styles/classes/anchors-wrapper.css';
+@import './styles/classes/slogan.css';
+@import './styles/classes/nav-anchor.css';
+@import './styles/classes/menu-icon.css';
 
 /* Activators */
-@import '/styles/classes/activators/display-flex.css';
-@import '/styles/classes/activators/transform-menu.css';
+@import './styles/classes/activators/display-flex.css';
+@import './styles/classes/activators/transform-menu.css';
