@@ -1,0 +1,16 @@
+span.ripple {
+  position: absolute; 
+  border-radius: 50%;
+  background-color: var(--green);
+
+  transform: scale(0);
+  opacity: 0.6;
+  animation: ripple 1000ms linear;
+}
+
+@keyframes ripple {
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}

@@ -1,4 +1,5 @@
 import MenuIcon from "./components/MenuIcon.js";
+import { buttons } from "./functions/ripple.js";
 
 const globalNavEl = document.querySelector('.global-nav');
 const anchorsWrapperEl = document.querySelector('.anchors-wrapper');
@@ -16,3 +17,6 @@ $menuIcon.addEventListener('click', () => {
 });
 
 globalNavEl.append($menuIcon)
+
+
+

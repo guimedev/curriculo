@@ -14,8 +14,12 @@
 @import './styles/classes/slogan.css';
 @import './styles/classes/nav-anchor.css';
 @import './styles/classes/menu-icon.css';
+@import './styles/classes/button.css';
 
 /* Activators */
 @import './styles/classes/activators/show-display.css';
 @import './styles/classes/activators/animate-menu-bar.css';
 @import './styles/classes/activators/hidden-scrollbar.css';
+
+/* Animations */
+@import './styles/classes/animations/ripple.css';
