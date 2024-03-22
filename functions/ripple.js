@@ -13,11 +13,11 @@ buttons.forEach((button) => {
     circle.classList.add('ripple');
 
     const ripple = button.querySelector('.ripple');
-
+    
     if (ripple) {
       ripple.remove();
     }
-
+    
     button.append(circle);
   });
 });

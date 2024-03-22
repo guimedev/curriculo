@@ -9,6 +9,8 @@ export default function MenuIcon() {
   const el = document.createElement('button');
 
   el.className = 'menu-icon';
+  el.setAttribute('type', 'button');
+  el.title = 'menu icon'
   el.append(Bar(), Bar(), Bar());
 
   el.addEventListener('click', (event) => {

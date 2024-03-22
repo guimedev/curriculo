@@ -1,0 +1,8 @@
+.c-description {
+  list-style-type: disc;
+  padding: 8rem 40rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}

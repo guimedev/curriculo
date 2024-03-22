@@ -1,0 +1,21 @@
+#curriculum {
+  display: none;
+}
+
+#curriculum #c-name,
+#c-age,
+#c-phone-number,
+#c-email {
+  margin: 8rem 0;
+  text-align: center;
+}
+
+@media print {
+  #curriculum {
+    display: block;
+  }
+
+  .portfolio {
+    display: none !important;
+  }
+}

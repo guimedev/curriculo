@@ -8,6 +8,10 @@
 @import './styles/base/rem.css';
 @import './styles/base/normalize.css';
 
+/* Identifiers */
+@import './styles/identifiers/curriculum.css';
+@import './styles/identifiers/c-name.css';
+
 /* Classes */
 @import './styles/classes/global-nav.css';
 @import './styles/classes/anchors-wrapper.css';
@@ -15,6 +19,10 @@
 @import './styles/classes/nav-anchor.css';
 @import './styles/classes/menu-icon.css';
 @import './styles/classes/button.css';
+@import './styles/classes/c-title.css';
+@import './styles/classes/c-subtitle.css';
+@import './styles/classes/c-description.css';
+@import './styles/classes/c-subtitle-list.css';
 
 /* Activators */
 @import './styles/classes/activators/show-display.css';
@@ -23,3 +31,4 @@
 
 /* Animations */
 @import './styles/classes/animations/ripple.css';
+
