@@ -23,6 +23,7 @@
 @import './styles/classes/c-subtitle.css';
 @import './styles/classes/c-description.css';
 @import './styles/classes/c-subtitle-list.css';
+@import './styles/classes/c-observation.css';
 
 /* Activators */
 @import './styles/classes/activators/show-display.css';
